@@ -1,0 +1,24 @@
+From 632529da74fe6a5a3bc871dd68f51eb4c6830976 Mon Sep 17 00:00:00 2001
+From: Saurabh Shendge <saurabh.shendge@gmail.com>
+Date: Fri, 23 Dec 2022 11:54:53 +0530
+Subject: [PATCH] Modify file Diff.java
+
+---
+ Diff.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Diff.java b/Diff.java
+index 868c690..2362266 100644
+--- a/Diff.java
++++ b/Diff.java
+@@ -2,6 +2,6 @@ public class Diff{
+  public static void main(String[] args){
+ 	int a = 10;
+ 	int b = 2;
+-	System.out.println("Subtraction: "+(a-b));
++	System.out.println("Additionn: "+(a+b));
+ }
+ }
+-- 
+2.34.1
+
